@@ -43,7 +43,7 @@ class StartupBust {
         String result = "miss";
 
         for (Startup startupToTest : startups) {
-            result = startupToTest.checkYourserlf(userGuess);
+            result = startupToTest.checkYourself(userGuess);
 
             if (result.equals("hit")) {
                 break;
